@@ -1,0 +1,47 @@
+
+.btn {
+    border-radius: 4px;
+    padding: 10px 14px;
+    margin: 10px 0;
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+:root {
+    --btnOpacity: 0.3;
+}
+
+.btn-primary {
+    background-color: rgba(0, 0, 255, var(--btnOpacity));
+}
+
+.btn-secondary {
+    background-color: rgba(0, 128, 0, var(--btnOpacity));
+}
+
+.btn-success {
+    background-color: rgba(255, 255, 0, var(--btnOpacity));
+}
+
+.btn-danger {
+    background-color: rgba(255, 0, 255, var(--btnOpacity));
+}
+
+.btn-warning {
+    background-color: rgba(255, 165, 0, var(--btnOpacity));
+}
+
+.btn-info {
+    background-color: rgba(0, 255, 255, var(--btnOpacity));
+}
+
+.btn-light {
+    background-color: rgba(240, 240, 240, var(--btnOpacity));
+}
+
+.btn-dark {
+    background-color: rgba(128, 128, 128, var(--btnOpacity));
+}

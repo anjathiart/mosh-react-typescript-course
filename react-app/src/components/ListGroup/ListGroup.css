@@ -1,0 +1,20 @@
+.listGroupItem {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.listGroupItem:hover {
+    background-color: #f0f0f0;
+}
+
+.listGroup {
+    list-style: none;
+    padding: 0;
+}
+
+.container {
+    background-color: lightblue;
+}
